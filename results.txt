@@ -1,0 +1,17 @@
+Comparison of (user+sys) time of bignumcalc vs bc
+
+For each test case
+	Find bignumcalc (user+sys) time using the command 	-> time bignumcalc in.txt out.txt
+	Find bc (user+sys) time using the command 		-> time bc in_bc.txt > out_bc.txt 2>&1
+And report the numbers in the table below. Presently the table has dummy values for timing.
+If an error(SynErr,DivErr,SqrtErr,LowPrec) occured in the calculation. Please put Error Occured = 1.
+
+Tescase Number	|	bignumcalc time	|	bc time		|	Error Occured	
+1		|	0m0.076s	|	0m0.001s	|	0
+2		|	0m0.077s	|	0m0.001s	|	0
+3		|	0m0.077s	|	0m0.001s	|	0
+4		|	0m0.077s	|	0m0.001s	|	1
+5		|	0m0.076s	|	0m0.001s	|	1
+6		|	0m0.076s	|	0m0.001s	|	1
+7		|	0m0.076s	|	0m0.001s	|	0
+8		|	0m0.077s	|	0m0.001s	|	1
